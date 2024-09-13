@@ -40,3 +40,25 @@ E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.csproj.AssemblyReference.ca
 E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.dll
 E:\HocTap\HK6\QuanLyThuCung - Copy\DAL\obj\Debug\DAL.pdb
+D:\PetStore-Winform\DAL\bin\Debug\DAL.dll.config
+D:\PetStore-Winform\DAL\bin\Debug\DAL.dll
+D:\PetStore-Winform\DAL\bin\Debug\DAL.pdb
+D:\PetStore-Winform\DAL\bin\Debug\AForge.dll
+D:\PetStore-Winform\DAL\bin\Debug\AForge.Video.DirectShow.dll
+D:\PetStore-Winform\DAL\bin\Debug\AForge.Video.dll
+D:\PetStore-Winform\DAL\bin\Debug\DTO.dll
+D:\PetStore-Winform\DAL\bin\Debug\QRCoder.dll
+D:\PetStore-Winform\DAL\bin\Debug\zxing.dll
+D:\PetStore-Winform\DAL\bin\Debug\zxing.presentation.dll
+D:\PetStore-Winform\DAL\bin\Debug\DTO.pdb
+D:\PetStore-Winform\DAL\bin\Debug\DTO.dll.config
+D:\PetStore-Winform\DAL\bin\Debug\AForge.xml
+D:\PetStore-Winform\DAL\bin\Debug\AForge.Video.xml
+D:\PetStore-Winform\DAL\bin\Debug\AForge.Video.DirectShow.xml
+D:\PetStore-Winform\DAL\bin\Debug\zxing.xml
+D:\PetStore-Winform\DAL\bin\Debug\zxing.presentation.xml
+D:\PetStore-Winform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\PetStore-Winform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\PetStore-Winform\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\PetStore-Winform\DAL\obj\Debug\DAL.dll
+D:\PetStore-Winform\DAL\obj\Debug\DAL.pdb

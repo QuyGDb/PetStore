@@ -10,7 +10,7 @@ namespace DAL
 {
     public class Connect
     {
-        private static string connString = @"Data Source=PHATTAI ;Initial Catalog=QL_PetStore;User ID=sa;Password=123";
+        public static string connString = @"Data Source=localhost;Initial Catalog=QL_PetStore;Persist Security Info=True;User ID=sa;Password=Trinhquy1@";
         private static SqlConnection conn = null;
 
         public Connect()
@@ -48,6 +48,11 @@ namespace DAL
         {
             SqlCommand cmd = new SqlCommand(sql, conn);
             cmd.ExecuteNonQuery();
+        }
+
+        public string ConnectString()
+        {
+            return connString;
         }
     }
 }

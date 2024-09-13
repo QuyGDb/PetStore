@@ -11,7 +11,7 @@ namespace DAL
     public class LoaiDAO
     {
         private Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
         public DataTable DanhSach()
         {
             string sql = "SELECT * FROM Loai";
@@ -102,7 +102,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(LoaiDTO info, int maLoai)
@@ -132,7 +132,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
     }
 }

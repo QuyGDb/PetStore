@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PetStore-Winform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|d:\\petstore-winform\\doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\loaidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\loaidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3ACA6EC-114D-45BF-8156-7C6F561B9724}|DTO\\DTO.csproj|d:\\petstore-winform\\dto\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3ACA6EC-114D-45BF-8156-7C6F561B9724}|DTO\\DTO.csproj|solutionrelative:dto\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmDonDatMua.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:00:30.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoaiDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\LoaiDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\LoaiDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\LoaiDAO.cs",
+              "RelativeToolTip": "DAL\\LoaiDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:59:27.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\Connect.cs",
+              "RelativeDocumentMoniker": "DAL\\Connect.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\Connect.cs",
+              "RelativeToolTip": "DAL\\Connect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:57:53.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SendMail.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DTO\\SendMail.cs",
+              "RelativeDocumentMoniker": "DTO\\SendMail.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DTO\\SendMail.cs",
+              "RelativeToolTip": "DTO\\SendMail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:57:38.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

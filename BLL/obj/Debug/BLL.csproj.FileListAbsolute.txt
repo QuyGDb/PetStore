@@ -49,3 +49,29 @@ E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.ca
 E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.dll
 E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.pdb
 E:\HocTap\HK6\QuanLyThuCung - Copy\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\PetStore-Winform\BLL\bin\Debug\BLL.dll.config
+D:\PetStore-Winform\BLL\bin\Debug\BLL.dll
+D:\PetStore-Winform\BLL\bin\Debug\BLL.pdb
+D:\PetStore-Winform\BLL\bin\Debug\AForge.dll
+D:\PetStore-Winform\BLL\bin\Debug\AForge.Video.DirectShow.dll
+D:\PetStore-Winform\BLL\bin\Debug\AForge.Video.dll
+D:\PetStore-Winform\BLL\bin\Debug\DAL.dll
+D:\PetStore-Winform\BLL\bin\Debug\DTO.dll
+D:\PetStore-Winform\BLL\bin\Debug\Guna.UI2.dll
+D:\PetStore-Winform\BLL\bin\Debug\QRCoder.dll
+D:\PetStore-Winform\BLL\bin\Debug\zxing.dll
+D:\PetStore-Winform\BLL\bin\Debug\zxing.presentation.dll
+D:\PetStore-Winform\BLL\bin\Debug\DAL.pdb
+D:\PetStore-Winform\BLL\bin\Debug\DAL.dll.config
+D:\PetStore-Winform\BLL\bin\Debug\DTO.pdb
+D:\PetStore-Winform\BLL\bin\Debug\DTO.dll.config
+D:\PetStore-Winform\BLL\bin\Debug\AForge.xml
+D:\PetStore-Winform\BLL\bin\Debug\AForge.Video.xml
+D:\PetStore-Winform\BLL\bin\Debug\AForge.Video.DirectShow.xml
+D:\PetStore-Winform\BLL\bin\Debug\zxing.xml
+D:\PetStore-Winform\BLL\bin\Debug\zxing.presentation.xml
+D:\PetStore-Winform\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\PetStore-Winform\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\PetStore-Winform\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\PetStore-Winform\BLL\obj\Debug\BLL.dll
+D:\PetStore-Winform\BLL\obj\Debug\BLL.pdb
