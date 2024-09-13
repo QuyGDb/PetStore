@@ -11,7 +11,7 @@ namespace DAL
     public class DonDatMuaDAO
     {
         Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable DsDDM()
         {
@@ -110,14 +110,14 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(DonDatMuaDTO info, int maDDM)
         {
             try
             {
-                string sql = "UPDATE DonDatMua SET MaNCC = " + info.MaNCC + ", MaNV = "+info.MaNV+ ", CreateDate = '" + info.CreateDate.ToString("yyyy-MM-dd HH:mm:ss.fff") + "', NgayCapNhat = '" + info.NgayCapNhat.ToString("yyyy-MM-dd HH:mm:ss.fff") + "', NoiDung = N'" + info.NoiDung + "' WHERE MaDDM = " + maDDM;
+                string sql = "UPDATE DonDatMua SET MaNCC = " + info.MaNCC + ", MaNV = " + info.MaNV + ", CreateDate = '" + info.CreateDate.ToString("yyyy-MM-dd HH:mm:ss.fff") + "', NgayCapNhat = '" + info.NgayCapNhat.ToString("yyyy-MM-dd HH:mm:ss.fff") + "', NoiDung = N'" + info.NoiDung + "' WHERE MaDDM = " + maDDM;
                 data.ExecuteSQL(sql);
                 return true;
             }
@@ -125,7 +125,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Xoa(DonDatMuaDTO info)

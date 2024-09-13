@@ -11,7 +11,7 @@ namespace DAL
     public class PhieuNhapDAO
     {
         Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable PhieuNhap()
         {
@@ -94,7 +94,7 @@ namespace DAL
                 db.SubmitChanges();
                 return true;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 string ma = e.ToString();
                 return false;

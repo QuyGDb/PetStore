@@ -11,7 +11,7 @@ namespace DAL
     public class GiongDAO
     {
         private Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
         public DataTable DanhSach()
         {
             string sql = "SELECT * FROM Giong";
@@ -53,7 +53,7 @@ namespace DAL
         }
 
         //Thêm Linq
-        public bool ThemLinq(int maLoai, string tenGiong,int soLuongTon, string moTa)
+        public bool ThemLinq(int maLoai, string tenGiong, int soLuongTon, string moTa)
         {
             try
             {
@@ -120,7 +120,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(GiongDTO info, int maGiong)
@@ -135,7 +135,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Xoa(GiongDTO info)
@@ -151,7 +151,7 @@ namespace DAL
                 return false;
             }
 
-            
+
         }
     }
 }

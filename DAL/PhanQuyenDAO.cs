@@ -12,7 +12,7 @@ namespace DAL
     public class PhanQuyenDAO
     {
         private Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable DanhSach()
         {
@@ -94,7 +94,7 @@ namespace DAL
 
                 return false;
             }
-            
+
         }
 
         public bool Sua(PhanQuyenDTO info, int maQuyen)
@@ -105,12 +105,12 @@ namespace DAL
                 data.ExecuteSQL(sql);
                 return true;
             }
-            catch 
+            catch
             {
 
                 return false;
             }
-            
+
         }
 
         public bool Xoa(PhanQuyenDTO info)
@@ -126,7 +126,7 @@ namespace DAL
 
                 return false;
             }
-            
+
         }
     }
 }

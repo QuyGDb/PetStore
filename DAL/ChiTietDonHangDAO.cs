@@ -11,7 +11,7 @@ namespace DAL
     public class ChiTietDonHangDAO
     {
         private Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
         public DataTable DanhSach()
         {
             string sql = "SELECT * FROM ChiTietDonHang";
@@ -116,7 +116,7 @@ namespace DAL
 
         //Update Linq
         public bool UpdateLinq(int maDH, int maTC, decimal thanhTien)
-        { 
+        {
             try
             {
                 var update = db.ChiTietDonHangs.Single(t => t.MaDH == maDH);
@@ -147,7 +147,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(ChiTietDonHangDTO info, int maDH)
@@ -162,7 +162,7 @@ namespace DAL
             {
                 return false;
             }
-           
+
         }
 
         public bool SuaMaTC(ChiTietDonHangDTO info, int maTC)
@@ -177,7 +177,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Xoa(ChiTietDonHangDTO info)
@@ -192,7 +192,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool XoaChiTiet(ChiTietDonHangDTO info)
@@ -207,7 +207,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
     }
 }

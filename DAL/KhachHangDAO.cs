@@ -11,7 +11,7 @@ namespace DAL
     public class KhachHangDAO
     {
         private Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable DanhSach()
         {
@@ -135,7 +135,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(KhachHangDTO info, int maKhach)
@@ -152,7 +152,7 @@ namespace DAL
             {
                 return false;
             }
-           
+
         }
 
         public bool Xoa(KhachHangDTO info)
@@ -167,7 +167,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
     }
 }

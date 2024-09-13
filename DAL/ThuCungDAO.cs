@@ -10,7 +10,7 @@ namespace DAL
 {
     public class ThuCungDAO
     {
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
         private Connect data = new Connect();
 
         public DataTable DanhSach()
@@ -228,11 +228,11 @@ namespace DAL
                 data.ExecuteSQL(sql);
                 return true;
             }
-            catch 
+            catch
             {
-                return false;               
+                return false;
             }
-            
+
         }
 
         public bool ThemTCChiTiet(ThuCungDTO info)
@@ -262,7 +262,7 @@ namespace DAL
                 data.ExecuteSQL(sql);
                 return true;
             }
-            catch 
+            catch
             {
                 return false;
             }

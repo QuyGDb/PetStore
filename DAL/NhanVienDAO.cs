@@ -11,7 +11,7 @@ namespace DAL
     public class NhanVienDAO
     {
         private Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable DanhSach()
         {
@@ -105,7 +105,7 @@ namespace DAL
         }
 
         //Update Linq
-        public bool UpdateLinq(int id, string userName, string password, string name, string cmnd, DateTime ngaySinh, string address, string email, string phone, DateTime createDate, int maQuyen, decimal tienLuong,DateTime timeLogout)
+        public bool UpdateLinq(int id, string userName, string password, string name, string cmnd, DateTime ngaySinh, string address, string email, string phone, DateTime createDate, int maQuyen, decimal tienLuong, DateTime timeLogout)
         {
             try
             {
@@ -121,13 +121,13 @@ namespace DAL
                 update.CreateDate = createDate;
                 update.MaQuyen = maQuyen;
                 update.TienLuong = tienLuong;
-                update.TimeLogout = timeLogout; 
+                update.TimeLogout = timeLogout;
                 db.SubmitChanges();
                 return true;
             }
             catch
             {
-                return false; 
+                return false;
             }
         }
 
@@ -147,7 +147,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(NhanVienDTO info, int maNV)
@@ -164,7 +164,7 @@ namespace DAL
             {
                 return false;
             }
-           
+
         }
 
         public bool Xoa(NhanVienDTO info)
@@ -179,7 +179,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
     }
 }

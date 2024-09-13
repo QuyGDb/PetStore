@@ -11,7 +11,7 @@ namespace DAL
     public class DoiTraDAO
     {
         Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable DoiTra()
         {

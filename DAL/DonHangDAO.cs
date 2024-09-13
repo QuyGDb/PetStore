@@ -11,7 +11,7 @@ namespace DAL
     public class DonHangDAO
     {
         Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
 
         public DataTable DonHangSell(int maKH, DateTime createdDate, int maNV)
@@ -182,7 +182,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool SuaDonHang(DonHangDTO info, int maDH)
@@ -197,7 +197,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Sua(DonHangDTO info, int maDH)
@@ -212,7 +212,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
 
         public bool Xoa(DonHangDTO info)
@@ -227,7 +227,7 @@ namespace DAL
             {
                 return false;
             }
-            
+
         }
     }
 }

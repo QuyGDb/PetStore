@@ -11,7 +11,7 @@ namespace DAL
     public class NhaCungCapDAO
     {
         Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable NhaCungCap()
         {

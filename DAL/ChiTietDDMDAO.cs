@@ -11,7 +11,7 @@ namespace DAL
     public class ChiTietDDMDAO
     {
         Connect data = new Connect();
-        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext();
+        QuanLyPetStoreDataContext db = new QuanLyPetStoreDataContext(Connect.connString);
 
         public DataTable ChiTietDDM()
         {
@@ -53,7 +53,7 @@ namespace DAL
 
         //Thêm Linq
         public bool ThemLinq(int maDDM, int maGiong, decimal giaMua, int soLuong)
-        { 
+        {
             try
             {
                 ChiTietDDM ctddm = new ChiTietDDM();
@@ -90,7 +90,7 @@ namespace DAL
 
         //Update Linq
         public bool UpdateLinq(int maDDM, int maGiong, decimal giaMua, int soLuong)
-        { 
+        {
             try
             {
                 var update = db.ChiTietDDMs.Single(t => t.MaGiong == maGiong);
