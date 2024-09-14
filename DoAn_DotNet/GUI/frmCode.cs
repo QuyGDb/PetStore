@@ -95,7 +95,10 @@ namespace DoAn_DotNet.GUI
             Bitmap bmp = (Bitmap)eventArgs.Frame.Clone();
             pic_cam.Image = bmp;
         }
-
+        private void frmCode_FormClosing(Object sender, FormClosingEventArgs e)
+        {
+            DisconnectCamera();
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
             Bitmap img = (Bitmap)pic_cam.Image;
@@ -134,6 +137,6 @@ namespace DoAn_DotNet.GUI
                 }
             }
         }
-
     }
+
 }
