@@ -3,291 +3,159 @@
   "WorkspaceRootPath": "D:\\PetStore-Winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\thucungdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|d:\\petstore-winform\\doan_dotnet\\gui\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmsell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmsell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmqlgiongloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmqlgiongloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmcustomtb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmcustomtb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmdetailuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmdetailuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmdoimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmdoimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmqldoitra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmqldoitra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmqldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmqldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmqlnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmqlnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\thucungdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\thucungdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\phieunhapdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\phieunhapdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\phieunhapdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\phanquyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\phanquyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\phanquyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\nhacungcapdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\nhacungcapdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\nhacungcapdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\loaidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\loaidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\loaidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\khachhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\khachhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\khachhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\giongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\giongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\giongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\dondatmuadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\dondatmuadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\dondatmuadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\doitradao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\doitradao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\doitradao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\chitietpndao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\chitietpndao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\chitietpndao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\chitietdonhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\chitietdonhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\chitietdonhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|d:\\petstore-winform\\dal\\chitietddmdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|D:\\PetStore-Winform\\dal\\chitietddmdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07FDEC2-FEE3-433B-B68B-17866B4D5410}|DAL\\DAL.csproj|solutionrelative:dal\\chitietddmdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|d:\\petstore-winform\\doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|D:\\PetStore-Winform\\doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E79327CD-43A9-4824-93A6-8B6378CFF1FD}|DoAn_DotNet\\DoAn_DotNet.csproj|solutionrelative:doan_dotnet\\gui\\frmdondatmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3ACA6EC-114D-45BF-8156-7C6F561B9724}|DTO\\DTO.csproj|d:\\petstore-winform\\dto\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3ACA6EC-114D-45BF-8156-7C6F561B9724}|DTO\\DTO.csproj|D:\\PetStore-Winform\\dto\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3ACA6EC-114D-45BF-8156-7C6F561B9724}|DTO\\DTO.csproj|solutionrelative:dto\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 162,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThuCungDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ThuCungDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\ThuCungDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\ThuCungDAO.cs*",
-              "RelativeToolTip": "DAL\\ThuCungDAO.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwAwAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:35:14.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PhieuNhapDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\PhieuNhapDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\PhieuNhapDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\PhieuNhapDAO.cs*",
-              "RelativeToolTip": "DAL\\PhieuNhapDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:35:10.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PhanQuyenDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\PhanQuyenDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\PhanQuyenDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\PhanQuyenDAO.cs*",
-              "RelativeToolTip": "DAL\\PhanQuyenDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:35:06.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NhanVienDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\NhanVienDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\NhanVienDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\NhanVienDAO.cs*",
-              "RelativeToolTip": "DAL\\NhanVienDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:35:00.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NhaCungCapDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\NhaCungCapDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\NhaCungCapDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\NhaCungCapDAO.cs*",
-              "RelativeToolTip": "DAL\\NhaCungCapDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:56.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "KhachHangDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\KhachHangDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\KhachHangDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\KhachHangDAO.cs*",
-              "RelativeToolTip": "DAL\\KhachHangDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:51.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GiongDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\GiongDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\GiongDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\GiongDAO.cs*",
-              "RelativeToolTip": "DAL\\GiongDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:47.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DonHangDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\DonHangDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\DonHangDAO.cs*",
-              "RelativeToolTip": "DAL\\DonHangDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:43.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DonDatMuaDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\DonDatMuaDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DonDatMuaDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\DonDatMuaDAO.cs*",
-              "RelativeToolTip": "DAL\\DonDatMuaDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:39.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DoiTraDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\DoiTraDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DoiTraDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\DoiTraDAO.cs*",
-              "RelativeToolTip": "DAL\\DoiTraDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:35.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChiTietPNDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ChiTietPNDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\ChiTietPNDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\ChiTietPNDAO.cs*",
-              "RelativeToolTip": "DAL\\ChiTietPNDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:25.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChiTietDonHangDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ChiTietDonHangDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\ChiTietDonHangDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\ChiTietDonHangDAO.cs*",
-              "RelativeToolTip": "DAL\\ChiTietDonHangDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:20.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ChiTietDDMDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ChiTietDDMDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\ChiTietDDMDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\ChiTietDDMDAO.cs*",
-              "RelativeToolTip": "DAL\\ChiTietDDMDAO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:34:07.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmDonDatMua.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
-              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
-              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:00:30.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoaiDAO.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\LoaiDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\LoaiDAO.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\LoaiDAO.cs",
-              "RelativeToolTip": "DAL\\LoaiDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:59:27.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Connect.cs",
-              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\Connect.cs",
-              "RelativeDocumentMoniker": "DAL\\Connect.cs",
-              "ToolTip": "D:\\PetStore-Winform\\DAL\\Connect.cs",
-              "RelativeToolTip": "DAL\\Connect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:57:53.916Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -322,7 +190,411 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmThanhToan.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmThanhToan.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmThanhToan.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmThanhToan.cs",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmThanhToan.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T09:41:49.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSell.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmSell.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmSell.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmSell.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmSell.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T09:34:55.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmQLGiongLoai.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLGiongLoai.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmQLGiongLoai.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLGiongLoai.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmQLGiongLoai.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T09:34:51.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCode.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmCode.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmCode.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmCode.cs",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmCode.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:54.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmQLNhapHang.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLNhapHang.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmQLNhapHang.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLNhapHang.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmQLNhapHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:19.846Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "frmQLDoiTra.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLDoiTra.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmQLDoiTra.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLDoiTra.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmQLDoiTra.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:13.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmProduct.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmProduct.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmProduct.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmProduct.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:11.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmOrder.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmOrder.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmOrder.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmOrder.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:07.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmNhaCungCap.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmNhaCungCap.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmNhaCungCap.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:06.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmKhachHang.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:04.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmDonDatMua.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDonDatMua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:00.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmDoiMK.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDoiMK.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDoiMK.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDoiMK.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDoiMK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:39:58.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmCode.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmCode.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmCode.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmCode.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmCode.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:39:53.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmCustomTB.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmCustomTB.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmCustomTB.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmCustomTB.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmCustomTB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:39:49.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDetailUser.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDetailUser.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDetailUser.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDetailUser.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDetailUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:39:46.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDangNhap.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:39:44.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmThanhToan.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmThanhToan.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmThanhToan.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmThanhToan.cs [Design]*",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmThanhToan.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:39:37.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmMain.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmMain.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmMain.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:04:59.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmQLDonHang.cs [Design]",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLDonHang.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmQLDonHang.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmQLDonHang.cs [Design]",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmQLDonHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:04:52.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ThuCungDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ThuCungDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\ThuCungDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\ThuCungDAO.cs",
+              "RelativeToolTip": "DAL\\ThuCungDAO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwAwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:35:14.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PhieuNhapDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\PhieuNhapDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\PhieuNhapDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\PhieuNhapDAO.cs",
+              "RelativeToolTip": "DAL\\PhieuNhapDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:35:10.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PhanQuyenDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\PhanQuyenDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\PhanQuyenDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\PhanQuyenDAO.cs",
+              "RelativeToolTip": "DAL\\PhanQuyenDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:35:06.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NhanVienDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\NhanVienDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\NhanVienDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\NhanVienDAO.cs",
+              "RelativeToolTip": "DAL\\NhanVienDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:35:00.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NhaCungCapDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\NhaCungCapDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\NhaCungCapDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\NhaCungCapDAO.cs",
+              "RelativeToolTip": "DAL\\NhaCungCapDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:56.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "KhachHangDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\KhachHangDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\KhachHangDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\KhachHangDAO.cs",
+              "RelativeToolTip": "DAL\\KhachHangDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:51.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GiongDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\GiongDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\GiongDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\GiongDAO.cs",
+              "RelativeToolTip": "DAL\\GiongDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:47.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DonHangDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\DonHangDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\DonHangDAO.cs",
+              "RelativeToolTip": "DAL\\DonHangDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:43.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DonDatMuaDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\DonDatMuaDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DonDatMuaDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\DonDatMuaDAO.cs",
+              "RelativeToolTip": "DAL\\DonDatMuaDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:39.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DoiTraDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\DoiTraDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DoiTraDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\DoiTraDAO.cs",
+              "RelativeToolTip": "DAL\\DoiTraDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:35.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ChiTietPNDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ChiTietPNDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\ChiTietPNDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\ChiTietPNDAO.cs",
+              "RelativeToolTip": "DAL\\ChiTietPNDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:25.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChiTietDonHangDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ChiTietDonHangDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\ChiTietDonHangDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\ChiTietDonHangDAO.cs",
+              "RelativeToolTip": "DAL\\ChiTietDonHangDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:20.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ChiTietDDMDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\ChiTietDDMDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\ChiTietDDMDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\ChiTietDDMDAO.cs",
+              "RelativeToolTip": "DAL\\ChiTietDDMDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:34:07.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmDonDatMua.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "RelativeDocumentMoniker": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "RelativeToolTip": "DoAn_DotNet\\GUI\\frmDonDatMua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:00:30.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoaiDAO.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\LoaiDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\LoaiDAO.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\LoaiDAO.cs",
+              "RelativeToolTip": "DAL\\LoaiDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:59:27.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "D:\\PetStore-Winform\\DAL\\Connect.cs",
+              "RelativeDocumentMoniker": "DAL\\Connect.cs",
+              "ToolTip": "D:\\PetStore-Winform\\DAL\\Connect.cs",
+              "RelativeToolTip": "DAL\\Connect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:57:53.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "SendMail.cs",
               "DocumentMoniker": "D:\\PetStore-Winform\\DTO\\SendMail.cs",
               "RelativeDocumentMoniker": "DTO\\SendMail.cs",
@@ -330,8 +602,7 @@
               "RelativeToolTip": "DTO\\SendMail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:57:38.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T09:57:38.55Z"
             }
           ]
         }

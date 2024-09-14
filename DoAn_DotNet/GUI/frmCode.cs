@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using ZXing;
 using BLL;
 using static DoAn_DotNet.GUI.frmSell;
+using AForge.Video.DirectShow;
 
 namespace DoAn_DotNet.GUI
 {
@@ -30,9 +31,39 @@ namespace DoAn_DotNet.GUI
             this.send = sender;
         }
 
-
         frmSell sell = new frmSell();
-        MJPEGStream stream;
+        FilterInfoCollection videoDevices;
+        VideoCaptureDevice videoSource;
+        private void ConnectCamera()
+        {
+            // Lấy danh sách các thiết bị video (camera)
+            videoDevices = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            if (videoDevices.Count == 0)
+            {
+                MessageBox.Show("Không tìm thấy camera nào.");
+                return;
+            }
+
+            // Chọn camera đầu tiên trong danh sách
+            videoSource = new VideoCaptureDevice(videoDevices[0].MonikerString);
+            videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame);
+            videoSource.Start();
+        }
+        private void video_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            // Hiển thị khung hình mới từ camera lên PictureBox
+            Bitmap bitmap = (Bitmap)eventArgs.Frame.Clone();
+            pic_cam.Image = bitmap;
+        }
+
+        private void DisconnectCamera()
+        {
+            if (videoSource != null && videoSource.IsRunning)
+            {
+                videoSource.SignalToStop();
+                videoSource.WaitForStop();
+            }
+        }
 
         //Load thông báo
         public void Alert(string msg, frmCustomTB.enmType type)
@@ -45,18 +76,17 @@ namespace DoAn_DotNet.GUI
         {
             if (btn_Connect.Text == "Connect")
             {
-                stream = new MJPEGStream(txt_url_DroidCam.Text);
-                stream.NewFrame += stream_NewFrame;
-                stream.Start();
                 timer1.Enabled = true;
                 timer1.Start();
+                ConnectCamera();
                 btn_Connect.Text = "Disconnect";
             }
             else
             {
                 btn_Connect.Text = "Connect";
-                timer1.Stop();
-                stream.Stop();
+                //timer1.Stop();
+                //stream.Stop();
+                DisconnectCamera();
             }
 
         }
@@ -83,15 +113,13 @@ namespace DoAn_DotNet.GUI
                         maTCQR = decoded;
                         if (this.send(maTCQR) == false)
                         {
-                            timer1.Stop();
-                            stream.Stop();
+                            DisconnectCamera();
                             img.Dispose();
                             this.Close();
                             kt = false;
                             this.Alert("Thú cưng đã có trong giỏ hàng", frmCustomTB.enmType.Error);
                         }
-                        timer1.Stop();
-                        stream.Stop();
+                        DisconnectCamera();
                         if (kt == true)
                         {
                             this.Alert("Thú cưng đã được thêm vào giỏ hàng", frmCustomTB.enmType.Success);

@@ -36,7 +36,7 @@ namespace DoAn_DotNet.GUI
             CrystalReport2 rpt = new CrystalReport2();
             rpt.SetDataSource(dt);
             crystalReportViewer1.ReportSource = rpt;
-            rpt.SetDatabaseLogon("sa", "123", "PHATTAI", "QL_PetStore");
+            rpt.SetDatabaseLogon("sa", "123", "TRINHQUY", "QL_PetStore");
         }
     }
 }
