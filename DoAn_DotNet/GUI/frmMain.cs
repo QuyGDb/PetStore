@@ -292,7 +292,7 @@ namespace DoAn_DotNet.GUI
             }
             else
                 this.WindowState = FormWindowState.Normal;
-             
+
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)
@@ -351,9 +351,9 @@ namespace DoAn_DotNet.GUI
             DataTable dt = new DataTable();
             try
             {
-                NhanVienBLL user =  new NhanVienBLL();
+                NhanVienBLL user = new NhanVienBLL();
                 NhanVienDAO ds = new NhanVienDAO();
-                if (user.LayThongTinTong(maNV, DateTime.Today.Month, DateTime.Today.Year)==false)
+                if (user.LayThongTinTong(maNV, DateTime.Today.Month, DateTime.Today.Year) == false)
                 {
                     dt = ds.LayThongTinTong(maNV, DateTime.Today.Month, DateTime.Today.Year);
                     DataRow row = dt.Rows[0];
@@ -397,7 +397,7 @@ namespace DoAn_DotNet.GUI
                         item.SubItems.Add(t.ToString("dd-MM-yyyy"));
                         decimal doanhthu = (decimal)row["DoanhThu"];
                         item.SubItems.Add(doanhthu.ToString("c0", info));
-                        chart1.Series[0].Points.AddXY(t.ToString("dd-MM-yyyy"), doanhthu.ToString("c0",info));
+                        chart1.Series[0].Points.AddXY(t.ToString("dd-MM-yyyy"), doanhthu);
                         lsvDoanhThu.Items.Add(item);
                         i++;
                     }

@@ -46,7 +46,7 @@ namespace DoAn_DotNet.GUI
                         item.SubItems.Add(t.ToString("dd-MM-yyyy"));
                         decimal doanhthu = (decimal)row["DoanhThu"];
                         item.SubItems.Add(doanhthu.ToString("c0", info));
-                        chart1.Series[0].Points.AddXY(t.ToString("dd-MM-yyyy"), doanhthu.ToString("c0", info));
+                        chart1.Series[0].Points.AddXY(t.ToString("dd-MM-yyyy"), doanhthu);
                         lsvDoanhThu.Items.Add(item);
                         i++;
                     }
@@ -138,7 +138,7 @@ namespace DoAn_DotNet.GUI
 
         private void btnThongKe_Click(object sender, EventArgs e)
         {
-            frmQLThongKe_Load(sender,e);
+            frmQLThongKe_Load(sender, e);
         }
     }
 }
