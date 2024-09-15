@@ -1,0 +1,1 @@
+Nếu nuget package crystal report không hoạt động, hãy cài crystal report từ nguồn này phiên bản developer: https://www.tektutorialshub.com/crystal-reports/how-to-download-and-install-crystal-report-runtime/
