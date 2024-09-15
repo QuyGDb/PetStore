@@ -57,10 +57,10 @@ namespace DoAn_DotNet.GUI
 
         public delegate bool layMaTCQR(String maTCQR);
 
-
+        
 
         private void frmSell_Load(object sender, EventArgs e)
-        {
+        {            
             //Mã Nhân Viên
             txtMaNV.Text = maNV.ToString();
 
@@ -109,7 +109,7 @@ namespace DoAn_DotNet.GUI
             {
                 btn[i] = new Button();
                 hinh[i] = new Guna.UI2.WinForms.Guna2Button();
-
+                
 
                 tenTC = tc.DanhSachTCSell().Rows[i][1].ToString();
                 anh = tc.DanhSachTCSell().Rows[i][3].ToString();
@@ -144,7 +144,7 @@ namespace DoAn_DotNet.GUI
                 string textButton;
                 if (tenTC.Length > 20)
                 {
-                    textButton = "" + tenTC.Substring(0, 20) + "...\n Giá Bán: " + giaBan.ToString("c0") + "";
+                    textButton = "" + tenTC.Substring(0,20) + "...\n Giá Bán: " + giaBan.ToString("c0") + "";
                 }
                 else
                     textButton = "" + tenTC + "\n Giá Bán: " + giaBan.ToString("c0") + "";
@@ -190,7 +190,7 @@ namespace DoAn_DotNet.GUI
             //dataGridView1.Enabled = tt;
 
             txtTienNhan.Enabled = tt;
-
+             
             btnThanhToan.Enabled = tt;
             btnInHoaDon.Enabled = tt;
 
@@ -577,7 +577,7 @@ namespace DoAn_DotNet.GUI
         {
             if (string.IsNullOrEmpty(phoneNum))
                 return false;
-            string sMailPattern = @"^((09(\d){8})|(03(\d){8})|(08(\d){8})|(07(\d){8})|(05(\d){8}))$";
+            string sMailPattern = @"^((09(\d){8})|(01(\d){8})|(02(\d){8})|(03(\d){8})|(04(\d){8})|(08(\d){8})|(07(\d){8})|(06(\d){8})|(05(\d){8}))$";
             return Regex.IsMatch(phoneNum.Trim(), sMailPattern);
         }
 

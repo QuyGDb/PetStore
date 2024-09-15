@@ -359,7 +359,17 @@ namespace DoAn_DotNet.GUI
             {
                 for (int c = 0; c < dataGridView1.Columns.Count; c++)
                 {
-                    sheet.Cells[cellRowIndex, cellColIndex] = dataGridView1.Rows[d].Cells[c].Value.ToString();
+                    if (cellColIndex > 1)
+                    {
+                        // nhập các dòng khác
+                        sheet.Cells[cellRowIndex, cellColIndex].NumberFormat = "@";
+                        sheet.Cells[cellRowIndex, cellColIndex].Value = dataGridView1.Rows[d].Cells[c].Value.ToString();
+                    }
+                    else
+                    {
+                        //nhập id vào excel
+                        sheet.Cells[cellRowIndex, cellColIndex].Value = dataGridView1.Rows[d].Cells[c].Value.ToString();
+                    }
                     cellColIndex++;
                 }
                 cellColIndex = 1;
