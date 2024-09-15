@@ -94,7 +94,7 @@ namespace DoAn_DotNet.Custom
             // 
             // lblTenTC
             // 
-            this.lblTenTC.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenTC.Location = new System.Drawing.Point(3, 0);
             this.lblTenTC.Name = "lblTenTC";
             this.lblTenTC.Size = new System.Drawing.Size(311, 27);
@@ -116,7 +116,7 @@ namespace DoAn_DotNet.Custom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(188)))), ((int)(((byte)(128)))));
             this.Controls.Add(this.picTrangThai);
             this.Controls.Add(this.lblGiaBan);
             this.Controls.Add(this.panel2);

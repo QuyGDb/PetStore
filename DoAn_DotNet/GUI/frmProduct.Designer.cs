@@ -168,6 +168,7 @@ namespace DoAn_DotNet.GUI
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtTimKiem.IconLeft")));
             this.txtTimKiem.Location = new System.Drawing.Point(10, 10);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTimKiem.MinimumSize = new System.Drawing.Size(500, 0);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PasswordChar = '\0';
@@ -440,6 +441,7 @@ namespace DoAn_DotNet.GUI
             this.txtNgayBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNgayBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNgayBan.Location = new System.Drawing.Point(128, 201);
+            this.txtNgayBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNgayBan.Name = "txtNgayBan";
             this.txtNgayBan.PasswordChar = '\0';
             this.txtNgayBan.PlaceholderText = "";
@@ -461,6 +463,7 @@ namespace DoAn_DotNet.GUI
             this.txtNgayCapNhat.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNgayCapNhat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNgayCapNhat.Location = new System.Drawing.Point(128, 164);
+            this.txtNgayCapNhat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNgayCapNhat.Name = "txtNgayCapNhat";
             this.txtNgayCapNhat.PasswordChar = '\0';
             this.txtNgayCapNhat.PlaceholderText = "";
@@ -482,6 +485,7 @@ namespace DoAn_DotNet.GUI
             this.txtNgayTao.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNgayTao.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNgayTao.Location = new System.Drawing.Point(128, 133);
+            this.txtNgayTao.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNgayTao.Name = "txtNgayTao";
             this.txtNgayTao.PasswordChar = '\0';
             this.txtNgayTao.PlaceholderText = "";
@@ -503,6 +507,7 @@ namespace DoAn_DotNet.GUI
             this.txtMaLoai.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaLoai.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaLoai.Location = new System.Drawing.Point(128, 235);
+            this.txtMaLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMaLoai.Name = "txtMaLoai";
             this.txtMaLoai.PasswordChar = '\0';
             this.txtMaLoai.PlaceholderText = "";
@@ -524,6 +529,7 @@ namespace DoAn_DotNet.GUI
             this.txtMaGiong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaGiong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaGiong.Location = new System.Drawing.Point(128, 267);
+            this.txtMaGiong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMaGiong.Name = "txtMaGiong";
             this.txtMaGiong.PasswordChar = '\0';
             this.txtMaGiong.PlaceholderText = "";
@@ -537,7 +543,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label11, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label11.Location = new System.Drawing.Point(19, 332);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 17);
+            this.label11.Size = new System.Drawing.Size(49, 16);
             this.label11.TabIndex = 41;
             this.label11.Text = "Mô Tả:";
             // 
@@ -547,7 +553,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label10, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label10.Location = new System.Drawing.Point(19, 307);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 17);
+            this.label10.Size = new System.Drawing.Size(76, 16);
             this.label10.TabIndex = 40;
             this.label10.Text = "Trạng Thái:";
             // 
@@ -557,7 +563,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label9, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label9.Location = new System.Drawing.Point(19, 243);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 17);
+            this.label9.Size = new System.Drawing.Size(58, 16);
             this.label9.TabIndex = 39;
             this.label9.Text = "Mã Loài:";
             // 
@@ -567,7 +573,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label8, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label8.Location = new System.Drawing.Point(19, 275);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 17);
+            this.label8.Size = new System.Drawing.Size(68, 16);
             this.label8.TabIndex = 38;
             this.label8.Text = "Mã Giống:";
             // 
@@ -577,7 +583,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label7, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label7.Location = new System.Drawing.Point(19, 209);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 17);
+            this.label7.Size = new System.Drawing.Size(70, 16);
             this.label7.TabIndex = 37;
             this.label7.Text = "Ngày Bán:";
             // 
@@ -587,7 +593,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label6, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label6.Location = new System.Drawing.Point(19, 172);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 17);
+            this.label6.Size = new System.Drawing.Size(102, 16);
             this.label6.TabIndex = 36;
             this.label6.Text = "Ngày Cập Nhật:";
             // 
@@ -597,7 +603,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label5, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label5.Location = new System.Drawing.Point(19, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 17);
+            this.label5.Size = new System.Drawing.Size(71, 16);
             this.label5.TabIndex = 35;
             this.label5.Text = "Ngày Tạo:";
             // 
@@ -607,7 +613,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label4.Location = new System.Drawing.Point(19, 110);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 17);
+            this.label4.Size = new System.Drawing.Size(33, 16);
             this.label4.TabIndex = 34;
             this.label4.Text = "Ảnh:";
             // 
@@ -617,7 +623,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label3.Location = new System.Drawing.Point(19, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 17);
+            this.label3.Size = new System.Drawing.Size(58, 16);
             this.label3.TabIndex = 33;
             this.label3.Text = "Giá Bán:";
             // 
@@ -627,7 +633,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label2.Location = new System.Drawing.Point(15, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 17);
+            this.label2.Size = new System.Drawing.Size(94, 16);
             this.label2.TabIndex = 32;
             this.label2.Text = "Tên Thú Cưng:";
             // 
@@ -637,7 +643,7 @@ namespace DoAn_DotNet.GUI
             this.guna2Transition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label1.Location = new System.Drawing.Point(15, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 17);
+            this.label1.Size = new System.Drawing.Size(89, 16);
             this.label1.TabIndex = 31;
             this.label1.Text = "Mã Thú Cưng:";
             // 
@@ -726,6 +732,7 @@ namespace DoAn_DotNet.GUI
             this.txtTrangThai.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTrangThai.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTrangThai.Location = new System.Drawing.Point(128, 299);
+            this.txtTrangThai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTrangThai.Name = "txtTrangThai";
             this.txtTrangThai.PasswordChar = '\0';
             this.txtTrangThai.PlaceholderText = "";
@@ -748,6 +755,7 @@ namespace DoAn_DotNet.GUI
             this.txtAnh.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAnh.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAnh.Location = new System.Drawing.Point(128, 102);
+            this.txtAnh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAnh.Name = "txtAnh";
             this.txtAnh.PasswordChar = '\0';
             this.txtAnh.PlaceholderText = "";
@@ -769,6 +777,7 @@ namespace DoAn_DotNet.GUI
             this.txtGiaBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtGiaBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGiaBan.Location = new System.Drawing.Point(128, 71);
+            this.txtGiaBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.PasswordChar = '\0';
             this.txtGiaBan.PlaceholderText = "";
@@ -792,6 +801,7 @@ namespace DoAn_DotNet.GUI
             this.txtTenTC.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTenTC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenTC.Location = new System.Drawing.Point(128, 40);
+            this.txtTenTC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTenTC.Name = "txtTenTC";
             this.txtTenTC.PasswordChar = '\0';
             this.txtTenTC.PlaceholderText = "";
@@ -814,6 +824,7 @@ namespace DoAn_DotNet.GUI
             this.txtMaTC.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMaTC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaTC.Location = new System.Drawing.Point(128, 9);
+            this.txtMaTC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMaTC.Name = "txtMaTC";
             this.txtMaTC.PasswordChar = '\0';
             this.txtMaTC.PlaceholderText = "";

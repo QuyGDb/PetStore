@@ -51,7 +51,7 @@ namespace DoAn_DotNet.Custom
 
         private void Category_MouseLeave(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(255, 128, 128);
+            this.BackColor = Color.FromArgb(215, 188, 128);
         }
 
         private void Category_MouseEnter(object sender, EventArgs e)
