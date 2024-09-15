@@ -124,14 +124,14 @@ namespace DoAn_DotNet.GUI
             this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
             this.btnDongCT = new System.Windows.Forms.ToolStripButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtMaTC = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtTenTC = new System.Windows.Forms.TextBox();
             this.txtGiaBan = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cboDH = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.txtTenTC = new System.Windows.Forms.TextBox();
-            this.txtMaTC = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.tabControl2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -487,6 +487,7 @@ namespace DoAn_DotNet.GUI
             this.txtTuKhoa.Name = "txtTuKhoa";
             this.txtTuKhoa.Size = new System.Drawing.Size(164, 30);
             this.txtTuKhoa.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTuKhoa_KeyDown);
+            this.txtTuKhoa.Click += new System.EventHandler(this.txtTuKhoa_Click);
             // 
             // btnTimKiem
             // 
@@ -1053,6 +1054,32 @@ namespace DoAn_DotNet.GUI
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông Tin Chi Tiết Hoá Đơn";
             // 
+            // txtMaTC
+            // 
+            this.txtMaTC.Location = new System.Drawing.Point(135, 78);
+            this.txtMaTC.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaTC.Name = "txtMaTC";
+            this.txtMaTC.Size = new System.Drawing.Size(225, 27);
+            this.txtMaTC.TabIndex = 22;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 81);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(114, 20);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Mã Thú Cưng:";
+            // 
+            // txtTenTC
+            // 
+            this.txtTenTC.Location = new System.Drawing.Point(461, 78);
+            this.txtTenTC.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTenTC.Name = "txtTenTC";
+            this.txtTenTC.Size = new System.Drawing.Size(225, 27);
+            this.txtTenTC.TabIndex = 20;
+            // 
             // txtGiaBan
             // 
             this.txtGiaBan.Location = new System.Drawing.Point(461, 30);
@@ -1098,32 +1125,6 @@ namespace DoAn_DotNet.GUI
             this.label16.Size = new System.Drawing.Size(80, 20);
             this.label16.TabIndex = 0;
             this.label16.Text = "Hoá Đơn:";
-            // 
-            // txtTenTC
-            // 
-            this.txtTenTC.Location = new System.Drawing.Point(461, 78);
-            this.txtTenTC.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTenTC.Name = "txtTenTC";
-            this.txtTenTC.Size = new System.Drawing.Size(225, 27);
-            this.txtTenTC.TabIndex = 20;
-            // 
-            // txtMaTC
-            // 
-            this.txtMaTC.Location = new System.Drawing.Point(135, 78);
-            this.txtMaTC.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaTC.Name = "txtMaTC";
-            this.txtMaTC.Size = new System.Drawing.Size(225, 27);
-            this.txtMaTC.TabIndex = 22;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 81);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(114, 20);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "Mã Thú Cưng:";
             // 
             // frmQLDonHang
             // 

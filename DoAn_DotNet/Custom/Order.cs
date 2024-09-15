@@ -45,7 +45,7 @@ namespace DoAn_DotNet.Custom
 
         private void Order_MouseLeave(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(215, 188, 128);
+            this.BackColor = Color.FromArgb(255, 128, 128);
         }
     }
 }

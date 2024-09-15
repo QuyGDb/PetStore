@@ -31,10 +31,10 @@ namespace DoAn_DotNet.GUI
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnDangXuat = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
@@ -56,6 +56,7 @@ namespace DoAn_DotNet.GUI
             this.btnDonHang = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label = new System.Windows.Forms.Label();
             this.panelTop = new System.Windows.Forms.Panel();
             this.panelHoTen = new System.Windows.Forms.Panel();
             this.lblHoTen = new System.Windows.Forms.Label();
@@ -91,7 +92,6 @@ namespace DoAn_DotNet.GUI
             this.lblSoDonHang = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panelQL.SuspendLayout();
@@ -501,6 +501,18 @@ namespace DoAn_DotNet.GUI
             this.label1.TabIndex = 1;
             this.label1.Text = "STORE";
             // 
+            // label
+            // 
+            this.label.BackColor = System.Drawing.Color.Transparent;
+            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.ForeColor = System.Drawing.Color.Black;
+            this.label.Location = new System.Drawing.Point(70, 7);
+            this.label.Margin = new System.Windows.Forms.Padding(0);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(57, 36);
+            this.label.TabIndex = 0;
+            this.label.Text = "PET";
+            // 
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(65)))), ((int)(((byte)(100)))));
@@ -655,28 +667,28 @@ namespace DoAn_DotNet.GUI
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(3, 3);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series1.ChartArea = "ChartArea1";
-            series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            series1.IsValueShownAsLabel = true;
-            series1.Legend = "Legend1";
-            series1.MarkerBorderColor = System.Drawing.Color.White;
-            series1.Name = "Tổng Tiền";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            series2.IsValueShownAsLabel = true;
+            series2.Legend = "Legend1";
+            series2.MarkerBorderColor = System.Drawing.Color.White;
+            series2.Name = "Tổng Tiền";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(616, 553);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
-            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            title1.Name = "Title1";
-            title1.Text = "BIỂU ĐỒ DOANH THU CỬA HÀNG";
-            this.chart1.Titles.Add(title1);
+            title2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            title2.Name = "Title1";
+            title2.Text = "BIỂU ĐỒ DOANH THU CỬA HÀNG";
+            this.chart1.Titles.Add(title2);
             // 
             // lsvDoanhThu
             // 
@@ -871,7 +883,7 @@ namespace DoAn_DotNet.GUI
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(188)))), ((int)(((byte)(128)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.lblSoDonHang);
             this.panel2.Controls.Add(this.label2);
@@ -920,18 +932,6 @@ namespace DoAn_DotNet.GUI
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // label
-            // 
-            this.label.BackColor = System.Drawing.Color.Transparent;
-            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label.ForeColor = System.Drawing.Color.Black;
-            this.label.Location = new System.Drawing.Point(45, 7);
-            this.label.Margin = new System.Windows.Forms.Padding(0);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(82, 36);
-            this.label.TabIndex = 0;
-            this.label.Text = "PET";
             // 
             // frmMain
             // 
@@ -994,6 +994,7 @@ namespace DoAn_DotNet.GUI
         private System.Windows.Forms.Button btnQLKhachHang;
         private System.Windows.Forms.Button btnDonHang;
         private System.Windows.Forms.Button btnQLThuCung;
+        private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblChilForm;
         private System.Windows.Forms.Button btnCloseChilForm;
@@ -1039,6 +1040,5 @@ namespace DoAn_DotNet.GUI
         private System.Windows.Forms.Button btnDHDT;
         private System.Windows.Forms.Button btnQLDDM;
         private System.Windows.Forms.Button btnDoiTra;
-        private System.Windows.Forms.Label label;
     }
 }

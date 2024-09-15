@@ -63,7 +63,7 @@ namespace DoAn_DotNet.Custom
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Location = new System.Drawing.Point(89, 44);
             this.lblTongTien.Name = "lblTongTien";
-            this.lblTongTien.Size = new System.Drawing.Size(80, 16);
+            this.lblTongTien.Size = new System.Drawing.Size(83, 17);
             this.lblTongTien.TabIndex = 6;
             this.lblTongTien.Text = "lblTongTien";
             // 
@@ -92,7 +92,7 @@ namespace DoAn_DotNet.Custom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(188)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Controls.Add(this.picTrangThai);
             this.Controls.Add(this.lblTongTien);
             this.Controls.Add(this.lblMaDH);

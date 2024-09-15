@@ -255,6 +255,7 @@ namespace DoAn_DotNet.GUI
                 sheet.Cells[1, c + 1] = dataGridView1.Columns[c].HeaderText;
             }
 
+
             // Thêm các dòng nội dung
             int cellRowIndex = 2;
             int cellColIndex = 1;
@@ -422,6 +423,7 @@ namespace DoAn_DotNet.GUI
 
         private void btnXuatExcelLoai_Click(object sender, EventArgs e)
         {
+            //check
             _Application excel = new Microsoft.Office.Interop.Excel.Application();
             _Workbook workbook = excel.Workbooks.Add(Type.Missing);
             _Worksheet sheet = null;
