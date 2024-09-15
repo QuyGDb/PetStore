@@ -101,42 +101,48 @@ namespace DoAn_DotNet.GUI
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            Bitmap img = (Bitmap)pic_cam.Image;
-            if (img != null)
+            if (pic_cam.Image == null)
             {
-                ZXing.BarcodeReader Reader = new ZXing.BarcodeReader();
-                Result result = Reader.Decode(img);
+                Console.WriteLine("No image available in pic_cam.");
+                return;
+            }
+
+            using (Bitmap img = new Bitmap(pic_cam.Image))
+            {
                 try
                 {
-                    string decoded = result.ToString().Trim();
-                    string maTCQR = "";
-                    bool kt = true;
-                    if (maTCQR.Trim() == "")
+                    ZXing.BarcodeReader reader = new ZXing.BarcodeReader();
+                    Result result = reader.Decode(img);
+                    if (result == null)
                     {
-                        maTCQR = decoded;
-                        if (this.send(maTCQR) == false)
-                        {
-                            DisconnectCamera();
-                            img.Dispose();
-                            this.Close();
-                            kt = false;
-                            this.Alert("Thú cưng đã có trong giỏ hàng", frmCustomTB.enmType.Error);
-                        }
-                        DisconnectCamera();
-                        if (kt == true)
-                        {
-                            this.Alert("Thú cưng đã được thêm vào giỏ hàng", frmCustomTB.enmType.Success);
-                        }
+                        return;
                     }
-                    img.Dispose();
+
+                    string decoded = result.Text.Trim();
+                    if (string.IsNullOrEmpty(decoded))
+                    {
+                        Alert("Mã vạch trống", frmCustomTB.enmType.Error);
+                        return;
+                    }
+
+                    if (!send(decoded))
+                    {
+                        Alert("Thú cưng đã có trong giỏ hàng", frmCustomTB.enmType.Error);
+                    }
+                    else
+                    {
+                        Alert("Thú cưng đã được thêm vào giỏ hàng", frmCustomTB.enmType.Success);
+                    }
+
+                    DisconnectCamera();
                     this.Close();
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message + "");
+                    Console.WriteLine("Error: " + ex.Message);
+                    Alert("Đã xảy ra lỗi khi xử lý mã vạch", frmCustomTB.enmType.Error);
                 }
             }
         }
     }
-
 }
