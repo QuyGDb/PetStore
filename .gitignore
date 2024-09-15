@@ -20,13 +20,14 @@
 .packages/
 
 # Build results
-[Dd]ebug/
+
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
 x64/
 x86/
 bld/
+
 
 [Oo]bj/
 [Ll]og/
@@ -387,3 +388,4 @@ InteropTests/NativeTests/out
 # 'git update-index --assume-unchanged <filename>' will allow ignoring changes for tracked files.
 **/ScratchProject/
 **/ScratchProjectWithInternals/
+DoAn_DotNet/bin/Debug
